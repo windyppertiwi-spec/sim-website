@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f8ff;
+  color: #0f172a;
+}
+
+.lms-header {
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  color: white;
+  padding: 25px;
+}
+
+.lms-title h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.lms-title p {
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.lms-nav {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 20px;
+}
+
+.lms-nav a {
+  text-decoration: none;
+  color: #2563eb;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.lms-nav a.active {
+  color: #0f172a;
+  border-bottom: 2px solid #2563eb;
+}
+
+.lms-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.lms-section {
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 2px solid #cbd5e1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.lms-section-header {
+  width: 100%;
+  background: #f1f7ff;
+  border: none;
+  color: #0f172a;
+  padding: 18px 22px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cbd5e1; 
+}
+
+
+.lms-item:hover {
+  background: #eef5ff;
+  border-color: #2563eb;
+}
+
+
+.lms-section-content {
+  display: none;
+  padding: 10px 20px 20px;
+}
+
+.lms-item {
+  display: block;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: #f8fbff;
+  margin-bottom: 12px;
+  border: 2px solid #cbd5e1;   /* BORDER ITEM LEBIH TEGAS */
+  text-decoration: none;
+  color: #0f172a;
+  transition: 0.2s;
+}
+
+.lms-item:hover {
+  background: #eef5ff;
+  border-color: #93c5fd;
+  color: #1d4ed8;
+}
+
+.lms-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .lms-title h1 {
+    font-size: 20px;
+  }
+}
+
+.dashboard-welcome {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.dashboard-welcome h2 {
+  margin-top: 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.dashboard-card h3 {
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+.dashboard-course {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fbff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.course-item h4 {
+  margin: 0;
+}
+
+.course-item p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.course-button {
+  background: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.course-button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard-footer-note {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+  padding: 15px 0;
+}
